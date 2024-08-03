@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GADEY ADITYA - Web develoveper</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#">
+        <h1 class="logo">Portfolio</h1>
+      </a>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+      </button>
+
+      <nav class="navbar container">
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link" data-nav-link>Achievements</a>
+          </li>
+
+          <li>
+            <a href="https://drive.google.com/file/d/1O7GeeCoybZbm4TjB4IyMWbVNIBowNKTB/view?usp=sharing" class="btn btn-primary">Download CV</a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/hero-banner.png" width="800" height="864" loading="lazy" alt="Aditya's Photo"
+              
+            class="img-cover">
+
+            <div class="elem elem-1">
+             <p class="elem-title">             </p> 
+
+              <p class="elem-text">Cloud Enthusiast</p>
+            </div>
+
+            <div class="elem elem-2">
+              
+
+              <p class="elem-text">Front-End Developer</p>
+
+            </div>
+
+            <div class="elem elem-3">
+              
+
+              <p class="elem-text">  Coding Fanatic </p>
+
+
+            </div>
+
+            <!-- <img src="./assets/images/roating img.png" width="169" height="172" alt="front - end web tools"
+              class="rotate-img"> -->    
+               <!-- need go though this after some time  -->
+
+          </div>
+
+          <div class="hero-content">
+
+            <h2 class="hero-title">
+
+            <span>Hello,It's me </span>
+            <strong style="color: black;">Gadey Aditya</strong>
+
+            <h2>I'm a <span>
+              <span id="element" style="color: darkblue;"></span>
+              <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+              <script>
+                  var typed = new Typed('#element',
+                      {
+                          strings: ['Programmer','Cloud Enthusiast','Frontend Web Developer'],
+                          typeSpeed: 100,
+                      });
+              </script>
+            </h2>
+
+
+
+            </h2>
+
+            <p class="hero-text">
+
+              Third-year student , B.Tech student pursuing computer science at SRM University kattankulathur(MC). function as web develoveper at ACM-W.         
+            
+            </p>
+
+            
+          <div class="btn-group">
+
+              <a href="#contact" class="btn btn-primary blue">Get a Quote</a>
+
+              <a href="#about" class="btn">About Me</a>
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/aboutbanner.jpeg" width="800" height="652" loading="lazy" alt="Ethan's Photo"
+              class="img-cover">
+
+            <img src="./assets/images/absoluteimage.jpeg" width="800" height="717" loading="lazy" alt="Ethan's Photo"
+              class="abs-img">
+
+            <div class="abs-icon abs-icon-1">
+              <ion-icon name="logo-css3"></ion-icon>
+            </div>
+
+            <div class="abs-icon abs-icon-2">
+              <ion-icon name="logo-javascript"></ion-icon>
+            </div>
+
+            <div class="abs-icon abs-icon-3">
+              <ion-icon name="logo-angular"></ion-icon>
+            </div>
+
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">I'm a Developer</p>
+
+            <h2 class="h2 section-title">I Develop Application that Help People</h2>
+
+            <p class="section-text">
+              As a developer committed to the cause, I specialize in creating applications aimed at improving people's lives. 
+              I work towards identifying a real-world problem, such as the one I just showed you, 
+              and developing innovative solutions that are not only user-friendly but have impact. Whether it's a mobile app to streamline daily tasks,
+               a web application to enhance productivity, or a specialized tool to address specific needs, 
+            </p>
+
+            <p class="section-text">
+              my goal is to leverage technology to make a positive difference. Through my projects, 
+              I try to empower people and communities by giving them the tools they need to thrive and excel in today's digital world.
+            </p>
+
+            <a href="#portfolio" class="btn btn-primary blue">View Portfolio</a>
+
+          </div>
+
+        </div>
+      </section>
+    
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="section portfolio" id="portfolio">
+        <div class="container">
+
+          <p class="section-subtitle">Portfolio</p>
+
+          <h2 class="h2 section-title">My Amazing Works</h2>
+
+          <p class="section-text">
+            I have worked on various projects and made significant contributions over the years.
+            These are my best shorts.
+          </p>
+
+          <ul class="portfolio-list">
+
+            <li>
+              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-1.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">WEB DEV PORJECT</p>
+
+                  <h3 class="h3 card-title">Web Application for Desiverse</h3>
+
+                  <span class="btn-link">
+
+                    <span>View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/Adityagnss/weatherjava" class="portfolio-card" style="background-image: url('./assets/images/portfolio2.png')" target="_blank" rel="noopener noreferrer">
+                <div class="card-content">
+                  <p class="card-subtitle">JAVA PROJECT</p>
+                  <h3 class="h3 card-title">Weather App GUI</h3>
+                  <span class="btn-link">
+                    <span>View Project</span>
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+                </div>
+              </a>
+            </li>
+            
+
+            <li>
+              <a href="https://github.com/Adityagnss/diabetes" class="portfolio-card" style="background-image: url('./assets/images/portfolio3.png')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">PYTHON PROJECT</p>
+
+                  <h3 class="h3 card-title">Diabetes prediction system</h3>
+
+                  <span class="btn-link">
+                    <span>View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-4.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Details</p>
+
+                  <h3 class="h3 card-title">Web Application for Desiverse</h3>
+
+                  <span class="btn-link">
+                    <span>View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" id="skills">
+        <div class="container">
+
+          <p class="section-subtitle">My Skills</p>
+
+          <h2 class="h2 section-title">I Develop Skills Regularly</h2>
+
+          <p class="section-text">
+           
+          </p>
+
+          <ul class="skills-list">
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 95%">
+                <h3 class=" skills-title">HTML,CSS,JS</h3>
+
+                <data class="skills-data" value="95">95%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 95%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 55%">
+                <h3 class="skills-title">React</h3>
+
+                <data class="skills-data" value="55">55%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 55%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">JAVA</h3>
+
+                <data class="skills-data" value="75">75%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 75%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 80%">
+                <h3 class="skills-title">PYTHON</h3>
+
+                <data class="skills-data" value="80">80%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 80%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 80%">
+                <h3 class="skills-title">C++,C</h3>
+
+                <data class="skills-data" value="80">80%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 80%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 75%">
+                <h3 class="skills-title">AWS</h3>
+
+                <data class="skills-data" value="75">75%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 75%"></div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CONTACT
+      -->
+
+      <section class="section contact" id="contact">
+        <div class="container">
+
+          <p class="section-subtitle">Contact</p>
+
+          <div class="contact-card">
+
+            <p class="card-subtitle">Don't be shy</p>
+
+            <h2 class="h2 section-title">Drop Me a Line</h2>
+
+            <div class="wrapper">
+
+              <form action="" class="contact-form">
+
+                <input type="text" name="name" placeholder="Name" required class="contact-input">
+
+                <input type="email" name="email" placeholder="Email" required class="contact-input">
+
+                <textarea name="message" placeholder="Message" required class="contact-input"></textarea>
+
+                <button type="submit" class="btn-submit">Submit Message</button>
+
+              </form>
+
+              <ul class="contact-list">
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="location"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Address</h3>
+
+                    <address class="contact-item-link">
+                      SRM University,     kattankulathur,Tamil Nadu
+                    </address>
+                  </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="mail"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Email</h3>
+
+                    <a href="mailto:hello@ethan.com" class="contact-item-link">Adityagnss@gmail.com</a>
+                  </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                  <div class="contact-icon">
+                    <ion-icon name="call"></ion-icon>
+                  </div>
+
+                  <div>
+                    <h3 class="contact-item-title">Phone</h3>
+
+                    <a href="tel:+1234567890" class="contact-item-link">+91 7287094511</a>
+                  </div>
+
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog">
+        <div class="container">
+
+          <p class="section-subtitle">professional development</p>
+
+          <h2 class="h2 section-title">Checkout My Recent works</h2>
+
+          <p class="section-text">
+            
+          </p>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog-1.png" width="1181" height="300" loading="lazy"
+                      alt="AICTE virtual internship" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag">AICTE virtual internship</a>
+
+                <h4 class="card-title">
+                  <p>I participated in a 10-week virtual internship with AICTE, focusing on cloud technology provided by AWS Academy. During this program, 
+                    I gained hands-on experience with AWS services and cloud computing concepts. 
+                    This internship enhanced my skills and prepared me for real-world applications in cloud technology.</p>
+                </h4>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog-2.png" width="1181" height="843" loading="lazy"
+                      alt="ML coursera Certification" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag">ML coursera Certification</a>
+
+                <h4 class="card-title">
+                  <p>I completed a course on Supervised Machine Learning: Regression and Classification, offered by DeepLearning.AI and
+                     Stanford Online through Coursera. This course provided in-depth knowledge of key machine learning algorithms and their applications. 
+                     I learned how to implement and 
+                     evaluate models using real-world datasets. 
+                     This experience has significantly enhanced my skills and prepared me for advanced machine learning challenges.</p>
+                </h4>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog3.png" width="1181" height="843" loading="lazy"
+                      alt="NPTEL Certification(JAVA)" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag">NPTEL Certification(JAVA) </a>
+
+                <h4 class="card-title">
+                  <p>I completed a 12-week course on Programming in Java, provided by NPTEL Online Certification. 
+                    This course covered fundamental and advanced Java programming concepts, including OODP, DSA. 
+                    Through hands-on assignments and projects, I gained practical experience in writing efficient and robust Java code. 
+                    This certification has strengthened my programming skills and prepared me for complex software development tasks.</p>
+                </h4>
+
+              </div>
+            </li>
+
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog4.png" width="1181" height="843" loading="lazy"
+                      alt="AWS Certification" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag">AWS Certification</a>
+
+                <h4 class="card-title">
+                  <p>I completed the AWS Academy Graduate program, which included courses covering various aspects of cloud computing. 
+                    The program consisted of foundational courses along with specialized tracks in Cloud Architecture, Machine Learning, Data Engineering, and Cloud Development. 
+                    Through rigorous training and hands-on projects, I gained expertise in designing, implementing, and managing cloud-based solutions. 
+                    This comprehensive program has equipped me with the skills and knowledge necessary to excel in cloud technology roles.</p>
+                </h4>
+
+              </div>
+            </li>
+
+
+            
+            
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog5.png" width="1181" height="843" loading="lazy"
+                      alt="Layer hackathon" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag">Layer hackathon</a>
+
+                <h4 class="card-title">
+                  <p>I actively participated in the Layer hackathon organized by the Blockchain Club SRM at SRM University. 
+                    Our team's innovative solution impressed the judges, securing our qualification for the second round of the competition. 
+                    Leveraging our expertise in blockchain technology, we developed a unique project that addressed real-world challenges. 
+                    This experience not only showcased our skills but also provided valuable networking opportunities within the blockchain community.</p>
+                </h4>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog6.png" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag">Data Analysis Certification</a>
+
+                <h4 class="card-title">
+                  <p>I successfully completed the Career Essentials in Data Analysis course offered by Microsoft and LinkedIn. 
+                     I gained valuable insights into the essential skills and techniques required for a career in data analysis. 
+                    The course covered topics such as data visualization, statistical analysis, and data-driven decision-making.  
+                    I am now well-prepared to pursue opportunities in the field of data analysis with confidence.</p>
+                </h4>
+
+              </div>
+            </li>
+
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog7.png" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag">ML/DL internship</a>
+
+                <h4 class="card-title">
+                  <p>
+                    "I completed a one-month virtual summer internship on 'Machine Learning and Deep Learning using 
+                    Python Programming' at AlQuantum Smart Solutions Private Limited, STEP-NITK, Surathkal, Karnataka, India 
+                    from June 7, 2024, to July 7, 2024. During this internship, I demonstrated my skills and self-motivation to
+                    learn new techniques in the areas of Image Processing, Machine Learning, and Deep Learning Algorithms with 
+                    various applications."</p>
+                </h4>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog8.png" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag">Accenture - Analytics and Visualization Job Simulation on
+                  Forage </a>
+
+                <h4 class="card-title">
+                  <p>
+                  
+                  Completed a simulation focused on advising a hypothetical social media client
+                  as a Data Analyst at Accenture
+                  Cleaned, modelled and analyzed 7 datasets to uncover insights into content
+                  trends to inform strategic decisions
+                  Prepared a PowerPoint deck and video presentation to communicate key insights
+                  for the client and internal stakeholders"
+                  
+                  </p>
+                </h4>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner">
+                  <a href="#">
+                    <img src="./assets/images/blog9.png" width="1181" height="843" loading="lazy"
+                      alt="Jim Morisson Says when the musics over turn off the light" class="img-cover">
+                  </a>
+                </figure>
+
+                <a href="#" class="card-tag">  Cognizant - Artificial Intelligence Job Simulation on Forage </a>
+
+                <h4 class="card-title">
+                  <p>
+                      Completed a job simulation focused on AI for Cognizant's Data Science team.
+                      Conducted exploratory data analysis using Python and Google Colab for one of
+                      Cognizant's technology-led clients, Gala Groceries.
+                      Prepare a Python module that contains code to train a model and output the
+                      performance metrics for the Machine Learning engineering team.
+                      Communicated findings and analysis in the form of a PowerPoint slide to
+                      present the results back to the business.
+                  
+                  </p>
+                </h4>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        &copy; 2024 <a href="#" class="copyright-link">Adityagnss</a>. All Rights Reseverd
+      </p>
+
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/your_username/" target="_blank">
+        <i class="fa-brands fa-instagram" style="font-size: 24px; color: #C13584;"></i></a>
+
+      <ul class="footer-list">
+        <li>
+          <a href="#" class="footer-link">Terms & Condition</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </li>
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-to-top" data-back-to-top>BACK TOP</a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

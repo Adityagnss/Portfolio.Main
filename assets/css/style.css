@@ -241,7 +241,7 @@ body {
 .logo {
   color: var(--white);
   font-family: var(--ff-poppins);
-  font-size: 2.4rem;
+  font-size: 3.4rem;
 }
 
 .nav-toggle-btn { font-size: 3rem; }
@@ -401,7 +401,7 @@ body {
   transition: var(--transition-2);
 }
 
-.portfolio-list > li:nth-child(even) .card-content { margin-inline-start: auto; }
+.portfolio-list > li:nth-child(odd) .card-content { margin-inline-start: 50%; }
 
 .portfolio-card .card-subtitle {
   color: var(--orange-soda);
